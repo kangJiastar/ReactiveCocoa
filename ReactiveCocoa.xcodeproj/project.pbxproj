@@ -16,6 +16,7 @@
 		A848E1081B46649E00DD2177 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A848E1071B46649E00DD2177 /* Images.xcassets */; };
 		A848E10B1B46649E00DD2177 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A848E1091B46649E00DD2177 /* LaunchScreen.xib */; };
 		A848E1171B46649E00DD2177 /* ReactiveCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A848E1161B46649E00DD2177 /* ReactiveCocoaTests.m */; };
+		A84C79951B856F2200B3401A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A84C79941B856F2200B3401A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A848E1101B46649E00DD2177 /* ReactiveCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A848E1151B46649E00DD2177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A848E1161B46649E00DD2177 /* ReactiveCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaTests.m; sourceTree = "<group>"; };
+		A84C79931B856F2200B3401A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A84C79941B856F2200B3401A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BD6AD9F27FEC9F118635B086 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03A2FE63E689C6568D08DB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CA83AEB73C0A428881288AE5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				A848E0FC1B46649E00DD2177 /* AppDelegate.m */,
 				A848E1011B46649E00DD2177 /* ViewController.h */,
 				A848E1021B46649E00DD2177 /* ViewController.m */,
+				A84C79931B856F2200B3401A /* Person.h */,
+				A84C79941B856F2200B3401A /* Person.m */,
 				A848E1041B46649E00DD2177 /* Main.storyboard */,
 				A848E1071B46649E00DD2177 /* Images.xcassets */,
 				A848E1091B46649E00DD2177 /* LaunchScreen.xib */,
@@ -283,6 +288,7 @@
 			files = (
 				A848E0FD1B46649E00DD2177 /* AppDelegate.m in Sources */,
 				A848E1001B46649E00DD2177 /* ReactiveCocoa.xcdatamodeld in Sources */,
+				A84C79951B856F2200B3401A /* Person.m in Sources */,
 				A848E1031B46649E00DD2177 /* ViewController.m in Sources */,
 				A848E0FA1B46649E00DD2177 /* main.m in Sources */,
 			);
